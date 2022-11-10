@@ -14,12 +14,12 @@ class BookController extends Controller
         $this->bookService = $bookService;
     }
     /**
-     * Display a listing of the books with filter by author.
+     * Display a listing of the Book with filter by Author.
      *
      * @return \Illuminate\Http\JsonResponse
      * @OA\Get(
      *     path="/api/books",
-     *     summary="Display a listing of the books with filter by author.",
+     *     summary="Display a listing of the Book with filter by author.",
      *     @OA\RequestBody(
      *         @OA\MediaType(
      *             mediaType="application/json",

@@ -13,6 +13,11 @@ class AuthorService
         $this->author = $author;
     }
 
+    /**
+     * Display a listing of the Author with filter by author.
+     *
+     * @return object
+     */
     public function index() : object
     {
         return $this->author->all();

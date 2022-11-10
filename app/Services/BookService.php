@@ -15,7 +15,7 @@ class BookService
     }
 
     /**
-     * Display a listing of the books with filter by author.
+     * Display a listing of the Book with filter by author.
      *
      * @return object
      */

@@ -14,12 +14,12 @@ class AuthorController extends Controller
     }
 
     /**
-     * Display a listing of the authors.
+     * Display a listing of the Author.
      *
      * @return \Illuminate\Http\JsonResponse
      * @OA\Get(
      *     path="/api/authors",
-     *     @OA\Response(response="200", description="Display a listing of authors.")
+     *     @OA\Response(response="200", description="Display a listing of Author.")
      * )
      */
     public function index()
