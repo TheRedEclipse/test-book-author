@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Authors - Books relatinoship test work</title>
+        <title>Authors - Books relationship test work</title>
         @vite(['resources/js/app.js', 'resources/js/app.css'])
     </head>
     <body>
