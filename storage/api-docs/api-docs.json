@@ -1,0 +1,46 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "title": "Book-Author test work",
+        "version": "0.1"
+    },
+    "paths": {
+        "/api/authors": {
+            "get": {
+                "summary": "Display a listing of the authors.",
+                "operationId": "0c71439e213e1b284fc37995d74bca2b",
+                "responses": {
+                    "200": {
+                        "description": "Display a listing of authors."
+                    }
+                }
+            }
+        },
+        "/api/books": {
+            "get": {
+                "summary": "Display a listing of the books with filter by author.",
+                "description": "Display a listing of the books with filter by author.",
+                "operationId": "a9d13283dfab262e97af3c914d51b7a8",
+                "requestBody": {
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "properties": {
+                                    "search": {
+                                        "type": "string"
+                                    }
+                                },
+                                "type": "object"
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "200": {
+                        "description": "Display a listing of the books with filter by author."
+                    }
+                }
+            }
+        }
+    }
+}
